@@ -224,8 +224,8 @@ MacSMug automatically handles common issues:
 
 ### Getting Help
 1. **Check this guide** for common solutions
-2. **Visit FAQ** at [macsmug.app/faq](https://macsmug.app/faq)
-3. **Contact support** at [support@macsmug.app](mailto:support@macsmug.app)
+2. **Visit FAQ** at (https://github.com/harikas14/Pages/blob/main/docs/MacSmug-FAQ.md)
+3. **Contact support** at [winmug@icloud.com](mailto:winmug@icloud.com)
 4. **Report bugs** on GitHub Issues
 
 ---
@@ -283,21 +283,16 @@ MacSMug automatically handles common issues:
 ## 📞 Support & Resources
 
 ### Getting Help
-- **Email Support:** [support@macsmug.app](mailto:support@macsmug.app)
-- **Website:** [https://macsmug.app](https://macsmug.app)
-- **FAQ:** [macsmug.app/faq](https://macsmug.app/faq)
-- **GitHub:** [github.com/macsmug/MacSMug](https://github.com/macsmug/MacSMug)
+- **Email Support:** [WINMUG@icloud.com](mailto:WINMUG@icloud.com)
+- **FAQ:** [macsmug.app/faq](https://github.com/harikas14/Pages/blob/main/docs/MacSmug-faq.md)
+- **GitHub:** [github.com/macsmug/MacSMug](https://github.com/harikas14/Pages/blob/main/docs/MacSmug-README.md)
 
-### Community
-- **Twitter:** [@MacSMugApp](https://twitter.com/MacSMugApp)
-- **Reddit:** [r/MacSMug](https://reddit.com/r/MacSMug)
-- **Discord:** [MacSMug Community](https://discord.gg/macsmug)
 
 ### Updates
 MacSMug automatically checks for updates. You can also:
 - **Check manually:** MacSMug → Check for Updates
 - **Auto-update:** Enable in Mac App Store preferences
-- **Release notes:** Available at [macsmug.app/releases](https://macsmug.app/releases)
+- **Release notes:** Available at [macsmug.app/releases](https://github.com/harikas14/Pages/blob/main/docs/MacSmug-release-notes.md)
 
 ---
 
