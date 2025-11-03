@@ -1,12 +1,12 @@
-# MacSMug Privacy Policy
+# SMugVault Privacy Policy
 
-**Effective Date:** January 2025  
+**Effective Date:** November 2025  
 **Version:** 1.0  
-**Last Updated:** January 10, 2025
+**Last Updated:** November 2, 2025
 
 ## Overview
 
-MacSMug is a native macOS application that helps you download your photos from SmugMug directly to your Mac. This privacy policy explains how MacSMug handles your data and protects your privacy in compliance with Apple's App Store guidelines and applicable privacy laws.
+SMugVault is a native macOS application that helps you download your photos from SmugMug directly to your Mac. This privacy policy explains how SMugVault handles your data and protects your privacy in compliance with Apple's App Store guidelines and applicable privacy laws.
 
 ## Information We Collect
 
@@ -28,7 +28,7 @@ MacSMug is a native macOS application that helps you download your photos from S
 - **Error Reports**: Crash logs and error information stored locally for debugging
 
 ### What We DON'T Collect
-- ❌ **Passwords**: Your SmugMug password is never stored, transmitted, or accessible to MacSMug
+- ❌ **Passwords**: Your SmugMug password is never stored, transmitted, or accessible to SMugVault
 - ❌ **Photo Content Analysis**: We don't analyze, scan, or process the content of your photos
 - ❌ **Personal Information**: No collection of names, addresses, emails, phone numbers, or other personal details
 - ❌ **Usage Analytics**: No tracking of how you use the application or behavioral analytics
@@ -40,7 +40,7 @@ MacSMug is a native macOS application that helps you download your photos from S
 
 ### Local Processing Only
 - All data processing occurs locally on your Mac
-- No information is transmitted to MacSMug servers (we don't operate any servers)
+- No information is transmitted to SMugVault servers (we don't operate any servers)
 - No cloud storage or external databases are used for your personal data
 - Your photos are downloaded directly from SmugMug to your chosen local directories
 
@@ -61,23 +61,23 @@ MacSMug is a native macOS application that helps you download your photos from S
 ### macOS Keychain Integration
 - OAuth tokens and sensitive authentication data are encrypted using macOS Keychain Services
 - Encryption keys are managed by macOS and tied to your user account
-- Only MacSMug and your user account can access the stored authentication data
+- Only SMugVault and your user account can access the stored authentication data
 - Keychain data is protected by macOS security features and your login credentials
 
 ### Local Storage Locations
 - **Authentication Data**: Securely stored in macOS Keychain (encrypted)
-- **Application Settings**: `~/Library/Application Support/MacSMug/` (local preferences)
+- **Application Settings**: `~/Library/Application Support/SMugVault/` (local preferences)
 - **Download Records**: Local application data folder (temporary tracking data)
-- **Application Logs**: `~/Library/Logs/MacSMug/` (technical logs, automatically cleaned)
+- **Application Logs**: `~/Library/Logs/SMugVault/` (technical logs, automatically cleaned)
 
 ### Data Retention and Cleanup
 - **Authentication Tokens**: Stored until you logout, revoke access, or uninstall the app
-- **Application Settings**: Retained until you uninstall MacSMug or manually reset preferences
+- **Application Settings**: Retained until you uninstall SMugVault or manually reset preferences
 - **Download History**: Automatically cleaned periodically to prevent excessive storage usage
 - **Technical Logs**: Automatically rotated and cleaned to maintain reasonable storage footprint
 
 ### Security Measures
-- **App Sandbox**: MacSMug runs in Apple's App Sandbox for enhanced security isolation
+- **App Sandbox**: SMugVault runs in Apple's App Sandbox for enhanced security isolation
 - **Hardened Runtime**: Enabled for additional protection against code injection and tampering
 - **Code Signing**: Application is signed with Apple Developer certificates for authenticity
 - **Minimal Permissions**: Only requests necessary permissions for core functionality
@@ -85,7 +85,7 @@ MacSMug is a native macOS application that helps you download your photos from S
 ## Third-Party Services and Integrations
 
 ### SmugMug API Integration
-- MacSMug connects exclusively to SmugMug's official API endpoints
+- SMugVault connects exclusively to SmugMug's official API endpoints
 - Authentication uses SmugMug's standard OAuth 1.0a security protocol
 - Your photos are downloaded directly from SmugMug's servers to your Mac
 - No intermediary servers, proxies, or caching services are used in the download process
@@ -113,21 +113,21 @@ MacSMug is a native macOS application that helps you download your photos from S
 - **No Vendor Lock-in**: Your data remains in open, standard formats
 
 ### Revoking Access and Data Deletion
-You can revoke MacSMug's access to your SmugMug account through multiple methods:
+You can revoke SMugVault's access to your SmugMug account through multiple methods:
 
-1. **Within MacSMug**: Use the "Logout" or "Disconnect Account" feature to remove local authentication
+1. **Within SMugVault**: Use the "Logout" or "Disconnect Account" feature to remove local authentication
 2. **SmugMug Account Settings**: 
    - Log into SmugMug.com
    - Go to Account Settings → Privacy → Authorized Applications
-   - Find "MacSMug" and click "Revoke Access"
+   - Find "SMugVault" and click "Revoke Access"
 3. **Complete Data Removal**:
-   - Uninstall MacSMug from Applications folder
-   - Manually delete `~/Library/Application Support/MacSMug/` for complete cleanup
+   - Uninstall SMugVault from Applications folder
+   - Manually delete `~/Library/Application Support/SMugVault/` for complete cleanup
    - Keychain data is automatically removed when the app is uninstalled
 
 ## Children's Privacy (COPPA Compliance)
 
-MacSMug is not specifically directed at children under 13 years of age. We do not knowingly collect, use, or disclose personal information from children under 13. If you are under 13 years of age, please do not use MacSMug without parental supervision and consent.
+SMugVault is not specifically directed at children under 13 years of age. We do not knowingly collect, use, or disclose personal information from children under 13. If you are under 13 years of age, please do not use SMugVault without parental supervision and consent.
 
 If we become aware that we have inadvertently collected personal information from a child under 13, we will take steps to delete such information promptly.
 
@@ -156,7 +156,7 @@ Under the California Consumer Privacy Act, you have the right to:
 ## Changes to This Privacy Policy
 
 We may update this privacy policy periodically to reflect:
-- Changes in MacSMug's functionality or features
+- Changes in SMugVault's functionality or features
 - Updates to applicable privacy laws and regulations
 - Improvements to our privacy practices and security measures
 
@@ -164,12 +164,12 @@ We may update this privacy policy periodically to reflect:
 - Updated policies will be included with app updates
 - Significant changes will be highlighted in app release notes
 - The "Last Updated" date at the top of this policy will reflect the most recent changes
-- Continued use of MacSMug after policy updates constitutes acceptance of the changes
+- Continued use of SMugVault after policy updates constitutes acceptance of the changes
 
 ## Data Processing Transparency
 
 ### Automated Decision Making
-MacSMug does not use automated decision-making or profiling that would significantly affect users. All processing is straightforward data transfer and storage as explicitly requested by the user.
+SMugVault does not use automated decision-making or profiling that would significantly affect users. All processing is straightforward data transfer and storage as explicitly requested by the user.
 
 ### Data Minimization
 We adhere to data minimization principles by:
@@ -180,22 +180,22 @@ We adhere to data minimization principles by:
 
 ## Contact Information and Support
 
-If you have questions, concerns, or requests regarding this privacy policy or MacSMug's data handling practices:
+If you have questions, concerns, or requests regarding this privacy policy or SMugVault's data handling practices:
 
 **Primary Contact**:
 - **Email**: winmug@icloud.com
 - **Support Email**: winmug@icloud.com
 
 **Additional Resources**:
-- **Documentation**: https://github.com/harikas14/Pages/blob/main/docs/MacSMug-UserGuide.md
-- **FAQ**: https://github.com/harikas14/Pages/blob/main/docs/MacSmug-faq.md
+- **Documentation**: https://github.com/harikas14/Pages/blob/main/docs/SMugVault-UserGuide.md
+- **FAQ**: https://github.com/harikas14/Pages/blob/main/docs/SMugVault-faq.md
 
 **Response Time**: We aim to respond to privacy-related inquiries within 72 hours.
 
 ## Compliance and Certifications
 
 ### Apple App Store Requirements
-MacSMug complies with Apple's App Store Review Guidelines including:
+SMugVault complies with Apple's App Store Review Guidelines including:
 - Clear and accurate privacy disclosures
 - Secure handling of user credentials and data
 - No unauthorized data collection or transmission
@@ -219,7 +219,7 @@ MacSMug complies with Apple's App Store Review Guidelines including:
 
 ## Privacy Policy Summary
 
-**MacSMug is designed with privacy as a fundamental principle**:
+**SMugVault is designed with privacy as a fundamental principle**:
 
 ✅ **Local-First**: Your data stays on your Mac  
 ✅ **No Tracking**: No analytics, telemetry, or behavioral tracking  
