@@ -1,4 +1,4 @@
-# MacSMug 📸
+# SMugVault 📸
 
 **The Ultimate SmugMug Photo Downloader for Mac**
 
@@ -7,14 +7,14 @@
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-Native-green.svg)](https://developer.apple.com/swiftui/)
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
 
-MacSMug is a native macOS application that allows you to download your entire SmugMug photo library while preserving folder structure and original quality. Built with modern SwiftUI and optimized for macOS 13+, MacSMug provides a seamless, professional experience for managing your photo downloads.
+SMugVault is a native macOS application that allows you to download your entire SmugMug photo library while preserving folder structure and original quality. Built with modern SwiftUI and optimized for macOS 13+, SMugVault provides a seamless, professional experience for managing your photo downloads.
 
-![MacSMug Screenshot](MacSMug/Resources/MacSmugStory.jpeg)
-![MacSMug Screenshot](MacSMug/Resources/MacSmug-Welcome-Page1.png)
-![MacSMug Screenshot](MacSMug/Resources/MacSmug-OAUTH-Page.png)
-![MacSMug Screenshot](MacSMug/Resources/MacSmug-Page3.png)
-![MacSMug Screenshot](MacSMug/Resources/MacSmug-Dwnld-Prgrs-Page.png)
-![MacSMug Screenshot](MacSMug/Resources/MacSmug-Dwnlod-Status-Page.png)
+![SMugVault Screenshot](SMugVault/Resources/SMugVaultStory.jpeg)
+![SMugVault Screenshot](SMugVault/Resources/SMugVault-Welcome-Page1.png)
+![SMugVault Screenshot](SMugVault/Resources/SMugVault-OAUTH-Page.png)
+![SMugVault Screenshot](SMugVault/Resources/SMugVault-Page3.png)
+![SMugVault Screenshot](SMugVault/Resources/SMugVault-Dwnld-Prgrs-Page.png)
+![SMugVault Screenshot](SMugVault/Resources/SMugVault-Dwnlod-Status-Page.png)
 
 ## ✨ Features
 
@@ -63,14 +63,14 @@ MacSMug is a native macOS application that allows you to download your entire Sm
 
 ### From Mac App Store (Recommended)
 1. Open the Mac App Store
-2. Search for "MacSMug"
+2. Search for "SMugVault"
 3. Click "Get" or purchase for $9.99
 4. The app will download and install automatically
 
 
 ## 🚀 Quick Start
 
-1. **Launch MacSMug** from your Applications folder
+1. **Launch SMugVault** from your Applications folder
 2. **Sign in** with your SmugMug account using the secure OAuth flow
 3. **Browse** your photo library using the sidebar navigation
 4. **Select** photos or albums you want to download
@@ -90,8 +90,8 @@ For detailed instructions, see the [User Guide](UserGuide.md).
 
 ```bash
 # Clone the repository
-git clone https://github.com/macsmug/MacSMug.git
-cd MacSMug
+git clone https://github.com/smugvault/SMugVault.git
+cd SMugVault
 
 # Build with Swift Package Manager
 swift build
@@ -100,13 +100,13 @@ swift build
 swift run
 
 # Or open in Xcode
-open MacSMug.xcodeproj
+open SMugVault.xcodeproj
 ```
 
 ### Project Structure
 
 ```
-MacSMug/
+SMugVault/
 ├── Sources/
 │   ├── Authentication/     # OAuth 1.0a implementation
 │   ├── Models/            # Data models (User, Node, Image)
@@ -128,7 +128,7 @@ MacSMug/
 swift test
 
 # Run specific test suite
-swift test --filter MacSMugTests
+swift test --filter SMugVaultTests
 
 # Run validation script
 swift Scripts/validate_app.swift
@@ -136,15 +136,15 @@ swift Scripts/validate_app.swift
 
 ## 🔧 Configuration
 
-MacSMug stores its configuration in the following locations:
+SMugVault stores its configuration in the following locations:
 
 - **Credentials:** macOS Keychain (secure)
-- **Preferences:** `~/Library/Preferences/com.macsmug.MacSMug.plist`
+- **Preferences:** `~/Library/Preferences/com.smugvault.SMugVault.plist`
 - **Downloads:** User-selected folder (default: `~/Downloads/SmugMug`)
 
 ## 🛡 Privacy & Security
 
-MacSMug is designed with privacy as a core principle:
+SMugVault is designed with privacy as a core principle:
 
 - **No Data Collection:** We don't collect any personal information
 - **Local Storage:** All photos are stored locally on your Mac
@@ -188,8 +188,8 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ### Getting Help
 
 1. **User Guide:** Check our comprehensive [User Guide](UserGuide.md)
-2. **FAQ:** Browse [Frequently Asked Questions](https://github.com/harikas14/Pages/blob/main/docs/MacSmug-FAQ.md)
-4. **Email:** Contact us at [winmug@icloud.com](mailto:support@macsmug.app)
+2. **FAQ:** Browse [Frequently Asked Questions](https://github.com/harikas14/Pages/blob/main/docs/SMugVault-FAQ.md)
+4. **Email:** Contact us at [winmug@icloud.com](mailto:support@smugvault.app)
 
 ### Known Issues
 
@@ -199,14 +199,14 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ## 📄 License
 
-MacSMug is proprietary software. See [LICENSE](LICENSE) for details.
+SMugVault is proprietary software. See [LICENSE](LICENSE) for details.
 
 ## 🙏 Acknowledgments
 
 - **SmugMug** for providing an excellent API
 - **Apple** for the SwiftUI framework
 - **Swift Community** for amazing tools and libraries
-- **Beta Testers** who helped make MacSMug better
+- **Beta Testers** who helped make SMugVault better
 
 ## 📞 Contact
 
@@ -217,4 +217,4 @@ MacSMug is proprietary software. See [LICENSE](LICENSE) for details.
 
 **Made with ❤️ for the Mac and SmugMug communities**
 
-*MacSMug is not affiliated with SmugMug, Inc. SmugMug is a trademark of SmugMug, Inc.*
+*SMugVault is not affiliated with SmugMug, Inc. SmugMug is a trademark of SmugMug, Inc.*
