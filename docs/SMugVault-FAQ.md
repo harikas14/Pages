@@ -1,6 +1,6 @@
-# SMugVault - Frequently Asked Questions 🤔
+# SMugAegis - Frequently Asked Questions 🤔
 
-**Quick answers to common questions about SMugVault**
+**Quick answers to common questions about SMugAegis**
 
 ## 📋 Table of Contents
 
@@ -16,10 +16,10 @@
 
 ## 🌟 General Questions
 
-### What is SMugVault?
-SMugVault is a native macOS application that allows you to download your entire SmugMug photo library while preserving folder structure and original quality. It's built specifically for Mac users who want a seamless, professional experience for managing their SmugMug photo downloads.
+### What is SMugAegis?
+SMugAegis is a native macOS application that allows you to download your entire SmugMug photo library while preserving folder structure and original quality. It's built specifically for Mac users who want a seamless, professional experience for managing their SmugMug photo downloads.
 
-### How is SMugVault different from other photo downloaders?
+### How is SMugAegis different from other photo downloaders?
 - **Native macOS app** - Built with SwiftUI for true Mac experience
 - **SmugMug specialized** - Designed specifically for SmugMug's API
 - **Folder preservation** - Maintains your SmugMug organization
@@ -27,45 +27,45 @@ SMugVault is a native macOS application that allows you to download your entire 
 - **Secure authentication** - OAuth 1.0a with Keychain storage
 - **Professional interface** - Modern, intuitive design
 
-### Is SMugVault affiliated with SmugMug?
-No, SMugVault is an independent application created by third-party developers. We use SmugMug's official API but are not affiliated with SmugMug, Inc.
+### Is SMugAegis affiliated with SmugMug?
+No, SMugAegis is an independent application created by third-party developers. We use SmugMug's official API but are not affiliated with SmugMug, Inc.
 
-### Can I use SMugVault with other photo services?
-Currently, SMugVault is designed exclusively for SmugMug. We may consider supporting other services in future versions based on user demand.
+### Can I use SMugAegis with other photo services?
+Currently, SMugAegis is designed exclusively for SmugMug. We may consider supporting other services in future versions based on user demand.
 
 ---
 
 ## 💰 Pricing & Purchase
 
-### How much does SMugVault cost?
-SMugVault is available for **$9.99** on the Mac App Store. This is a one-time purchase with no subscription fees.
+### How much does SMugAegis cost?
+SMugAegis is available for **$9.99** on the Mac App Store. This is a one-time purchase with no subscription fees.
 
 ### Is there a free trial?
-Currently, SMugVault doesn't offer a free trial. However, we offer a 30-day money-back guarantee through the Mac App Store if you're not satisfied.
+Currently, SMugAegis doesn't offer a free trial. However, we offer a 30-day money-back guarantee through the Mac App Store if you're not satisfied.
 
 ### Are there any subscription fees?
-No! SMugVault is a one-time purchase. You pay $9.99 once and own the app forever, including free updates.
+No! SMugAegis is a one-time purchase. You pay $9.99 once and own the app forever, including free updates.
 
 ### Is there an educational discount?
-Yes, SMugVault participates in Apple's educational pricing program. Students and educators can get a discount through the Mac App Store.
+Yes, SMugAegis participates in Apple's educational pricing program. Students and educators can get a discount through the Mac App Store.
 
-### Can I use SMugVault on multiple Macs?
-Yes! Your Mac App Store purchase allows you to install SMugVault on all Macs associated with your Apple ID.
+### Can I use SMugAegis on multiple Macs?
+Yes! Your Mac App Store purchase allows you to install SMugAegis on all Macs associated with your Apple ID.
 
 ---
 
 ## 💻 System Requirements
 
 ### What macOS version do I need?
-SMugVault requires **macOS 13.0 (Ventura) or later**. This ensures compatibility with the latest SwiftUI features and security standards.
+SMugAegis requires **macOS 13.0 (Ventura) or later**. This ensures compatibility with the latest SwiftUI features and security standards.
 
-### Does SMugVault work on Intel Macs?
-Yes! SMugVault is a universal app that runs natively on both:
+### Does SMugAegis work on Intel Macs?
+Yes! SMugAegis is a universal app that runs natively on both:
 - **Apple Silicon** (M1, M2, M3 Macs)
 - **Intel Macs** (x86_64 architecture)
 
 ### How much storage space do I need?
-- **App size:** ~50MB for SMugVault itself
+- **App size:** ~50MB for SMugAegis itself
 - **Photo storage:** Depends on your SmugMug library size
 - **Recommendation:** Ensure 2x your library size in free space
 
@@ -78,30 +78,30 @@ Yes! SMugVault is a universal app that runs natively on both:
 
 ## 🔐 Authentication & Security
 
-### How does SMugVault access my SmugMug account?
-SMugVault uses **OAuth 1.0a**, the industry-standard secure authentication protocol. You sign in through SmugMug's official website, and they provide SMugVault with secure access tokens.
+### How does SMugAegis access my SmugMug account?
+SMugAegis uses **OAuth 1.0a**, the industry-standard secure authentication protocol. You sign in through SmugMug's official website, and they provide SMugAegis with secure access tokens.
 
-### Does SMugVault store my SmugMug password?
-**No!** SMugVault never sees or stores your SmugMug password. All authentication is handled securely through OAuth, and access tokens are stored in your Mac's Keychain.
+### Does SMugAegis store my SmugMug password?
+**No!** SMugAegis never sees or stores your SmugMug password. All authentication is handled securely through OAuth, and access tokens are stored in your Mac's Keychain.
 
 ### Is my data safe?
-Absolutely! SMugVault is designed with privacy as a core principle:
+Absolutely! SMugAegis is designed with privacy as a core principle:
 - **No data collection** - We don't collect any personal information
 - **Local storage** - All photos are stored on your Mac
 - **Secure tokens** - Access credentials stored in macOS Keychain
 - **No tracking** - No analytics or tracking mechanisms
 
-### Can I revoke SMugVault's access?
-Yes! You can revoke SMugVault's access anytime by:
+### Can I revoke SMugAegis's access?
+Yes! You can revoke SMugAegis's access anytime by:
 1. Signing into your SmugMug account
 2. Going to Account Settings → Privacy
-3. Removing SMugVault from authorized applications
+3. Removing SMugAegis from authorized applications
 
-### What permissions does SMugVault need?
-SMugVault only requests the minimum permissions needed:
+### What permissions does SMugAegis need?
+SMugAegis only requests the minimum permissions needed:
 - **Read access** to your SmugMug photos and albums
-- **No write access** - SMugVault cannot modify your SmugMug content
-- **No sharing access** - SMugVault cannot share your photos
+- **No write access** - SMugAegis cannot modify your SmugMug content
+- **No sharing access** - SMugAegis cannot share your photos
 
 ---
 
@@ -111,42 +111,42 @@ SMugVault only requests the minimum permissions needed:
 Download speed depends on several factors:
 - **Your internet connection** - Primary limiting factor
 - **SmugMug's servers** - API rate limits and server load
-- **Concurrent downloads** - SMugVault downloads 3-5 photos simultaneously
+- **Concurrent downloads** - SMugAegis downloads 3-5 photos simultaneously
 - **Photo size** - Larger photos take longer
 
 ### Can I download my entire library at once?
-Yes! SMugVault can handle large libraries, but we recommend:
+Yes! SMugAegis can handle large libraries, but we recommend:
 - **Start with smaller albums** to test your setup
 - **Monitor available disk space** during large downloads
 - **Use stable internet connection** for best results
 - **Consider downloading in batches** for very large libraries (10,000+ photos)
 
 ### What happens if my download is interrupted?
-SMugVault automatically handles interruptions:
+SMugAegis automatically handles interruptions:
 - **Resume capability** - Downloads continue where they left off
 - **Retry logic** - Failed downloads are automatically retried
 - **Error handling** - Clear error messages and recovery options
 - **Progress preservation** - No need to start over
 
-### Does SMugVault preserve my folder structure?
-Yes! SMugVault maintains your SmugMug organization:
+### Does SMugAegis preserve my folder structure?
+Yes! SMugAegis maintains your SmugMug organization:
 - **Folder hierarchy** - Exact same structure as SmugMug
 - **Album names** - Preserved as folder names
 - **File names** - Original filenames maintained
 - **Metadata** - Photo information preserved
 
 ### Can I choose download quality?
-SMugVault always downloads the **highest quality available** (original resolution). This ensures you get the best possible version of your photos.
+SMugAegis always downloads the **highest quality available** (original resolution). This ensures you get the best possible version of your photos.
 
 ---
 
 ## 🔧 Troubleshooting
 
-### SMugVault won't start or crashes on launch
+### SMugAegis won't start or crashes on launch
 Try these solutions:
 1. **Restart your Mac** and try again
 2. **Check macOS version** - Ensure you have macOS 13.0+
-3. **Reinstall SMugVault** from the Mac App Store
+3. **Reinstall SMugAegis** from the Mac App Store
 4. **Check Console app** for error messages
 5. **Contact support** if the problem persists
 
@@ -168,15 +168,15 @@ Optimization tips:
 
 ### My photos aren't appearing in the library
 Troubleshooting steps:
-1. **Refresh the library** - Press Cmd+R or restart SMugVault
+1. **Refresh the library** - Press Cmd+R or restart SMugAegis
 2. **Check album privacy** - Ensure albums are accessible
 3. **Verify SmugMug account** - Check account status and permissions
 4. **Sign out and back in** - Refresh authentication tokens
 5. **Check SmugMug directly** - Verify photos exist in your account
 
-### SMugVault is using too much memory
+### SMugAegis is using too much memory
 Performance optimization:
-1. **Restart SMugVault** - Clears memory caches
+1. **Restart SMugAegis** - Clears memory caches
 2. **Close other applications** - Free up system memory
 3. **Download smaller batches** - Reduce memory pressure
 4. **Check Activity Monitor** - Monitor system resources
@@ -196,7 +196,7 @@ We offer multiple support channels:
 ### What information should I include when contacting support?
 Please provide:
 - **macOS version** - Found in Apple Menu → About This Mac
-- **SMugVault version** - Found in SMugVault → About SMugVault
+- **SMugAegis version** - Found in SMugAegis → About SMugAegis
 - **Error messages** - Exact text of any error messages
 - **Steps to reproduce** - What you were doing when the issue occurred
 - **Screenshots** - If applicable, include relevant screenshots
@@ -214,20 +214,20 @@ Absolutely! We love hearing from users. You can:
 
 ## 🔄 Updates & Future
 
-### How do I update SMugVault?
-SMugVault updates automatically through the Mac App Store:
+### How do I update SMugAegis?
+SMugAegis updates automatically through the Mac App Store:
 - **Automatic updates** - Enable in Mac App Store preferences
-- **Manual check** - SMugVault → Check for Updates (https://github.com/harikas14/Pages/blob/main/docs/SMugVault-README.md)
+- **Manual check** - SMugAegis → Check for Updates (https://github.com/harikas14/Pages/blob/main/docs/SMugAegis-README.md)
 
 ### What's coming in future versions?
-We're constantly improving SMugVault. Planned features include:
+We're constantly improving SMugAegis. Planned features include:
 - **Enhanced keyboard shortcuts** - More efficient navigation
 - **Batch operations** - Advanced selection and download options
 - **Custom presets** - Save download preferences
 - **Performance improvements** - Better handling of large libraries
 
 ### How can I stay updated?
-- **Watch our GitHub** - (https://github.com/harikas14/Pages/blob/main/docs/SMugVault-README.md)
+- **Watch our GitHub** - (https://github.com/harikas14/Pages/blob/main/docs/SMugAegis-README.md)
 
 ---
 
@@ -239,7 +239,7 @@ If you can't find the answer you're looking for:
 2. **Check the User Guide** - More detailed instructions
 3. **Contact our support team** - We're here to help!
 
-**We're committed to making SMugVault the best SmugMug downloader for Mac, and your feedback helps us improve!**
+**We're committed to making SMugAegis the best SmugMug downloader for Mac, and your feedback helps us improve!**
 
 ---
 

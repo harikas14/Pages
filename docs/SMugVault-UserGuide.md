@@ -1,8 +1,8 @@
-# SMugVault User Guide 📖
+# SMugAegis User Guide 📖
 
-**Complete Guide to Using SMugVault - The Ultimate SmugMug Photo Downloader for Mac**
+**Complete Guide to Using SMugAegis - The Ultimate SmugMug Photo Downloader for Mac**
 
-Welcome to SMugVault! This comprehensive guide will help you get the most out of your SmugMug photo downloading experience on Mac.
+Welcome to SMugAegis! This comprehensive guide will help you get the most out of your SmugMug photo downloading experience on Mac.
 
 ## 📋 Table of Contents
 
@@ -26,7 +26,7 @@ Welcome to SMugVault! This comprehensive guide will help you get the most out of
 - **SmugMug Account:** Active subscription required
 
 ### First Launch
-1. **Open SMugVault** from your Applications folder
+1. **Open SMugAegis** from your Applications folder
 2. You'll see the **Welcome Screen** with sign-in options
 3. Click **"Sign in with SmugMug"** to begin authentication
 
@@ -35,18 +35,18 @@ Welcome to SMugVault! This comprehensive guide will help you get the most out of
 ## 🔐 Authentication
 
 ### Signing In
-SMugVault uses secure OAuth 1.0a authentication to connect to your SmugMug account:
+SMugAegis uses secure OAuth 1.0a authentication to connect to your SmugMug account:
 
 1. **Click "Sign in with SmugMug"** on the welcome screen
 2. **Browser window opens** - this is normal and secure
 3. **Enter your SmugMug credentials** in the browser
-4. **Authorize SMugVault** to access your photos
-5. **Return to SMugVault** - you're now signed in!
+4. **Authorize SMugAegis** to access your photos
+5. **Return to SMugAegis** - you're now signed in!
 
 ### Security Features
 - ✅ **OAuth 1.0a:** Industry-standard secure authentication
 - ✅ **Keychain Storage:** Credentials stored securely in macOS Keychain
-- ✅ **No Password Storage:** SMugVault never sees your password
+- ✅ **No Password Storage:** SMugAegis never sees your password
 - ✅ **Revocable Access:** You can revoke access anytime from SmugMug
 
 ### Signing Out
@@ -59,7 +59,7 @@ SMugVault uses secure OAuth 1.0a authentication to connect to your SmugMug accou
 ## 📸 Browsing Your Library
 
 ### Interface Overview
-SMugVault features a clean, native macOS interface:
+SMugAegis features a clean, native macOS interface:
 
 - **Sidebar:** Navigation between Library, Downloads, and Settings
 - **Main Area:** Photo grid or list view
@@ -159,7 +159,7 @@ Each download shows:
 - **Clear Completed:** Remove completed items from list
 
 ### Error Handling
-SMugVault automatically handles common issues:
+SMugAegis automatically handles common issues:
 - **Network interruptions:** Downloads resume automatically
 - **Rate limiting:** Respects SmugMug's API limits
 - **Disk space:** Warns when storage is low
@@ -198,7 +198,7 @@ SMugVault automatically handles common issues:
 - Check your internet connection
 - Verify SmugMug credentials in browser
 - Clear browser cache and try again
-- Restart SMugVault and try again
+- Restart SMugAegis and try again
 
 #### Download Issues
 **Problem:** Downloads are slow or failing
@@ -206,7 +206,7 @@ SMugVault automatically handles common issues:
 - Check internet connection speed
 - Reduce concurrent downloads in settings
 - Try downloading smaller batches
-- Restart SMugVault if downloads are stuck
+- Restart SMugAegis if downloads are stuck
 
 #### Library Not Loading
 **Problem:** Photos don't appear in library
@@ -224,7 +224,7 @@ SMugVault automatically handles common issues:
 
 ### Getting Help
 1. **Check this guide** for common solutions
-2. **Visit FAQ** at (https://github.com/harikas14/Pages/blob/main/docs/SMugVault-FAQ.md)
+2. **Visit FAQ** at (https://github.com/harikas14/Pages/blob/main/docs/SMugAegis-FAQ.md)
 3. **Contact support** at [winmug@icloud.com](mailto:winmug@icloud.com)
 4. **Report bugs** on GitHub Issues
 
@@ -247,8 +247,8 @@ SMugVault automatically handles common issues:
 ### Performance Optimization
 - **Close other apps:** Free up memory for large downloads
 - **Adequate storage:** Ensure 2x photo size in free space
-- **Regular restarts:** Restart SMugVault for optimal performance
-- **Update regularly:** Keep SMugVault updated for best experience
+- **Regular restarts:** Restart SMugAegis for optimal performance
+- **Update regularly:** Keep SMugAegis updated for best experience
 
 ### Security Best Practices
 - **Regular sign-outs:** Sign out when not using
@@ -260,22 +260,22 @@ SMugVault automatically handles common issues:
 
 ## 🆘 Emergency Procedures
 
-### If SMugVault Becomes Unresponsive
-1. **Force quit:** Press Cmd+Option+Esc, select SMugVault, click "Force Quit"
-2. **Restart app:** Launch SMugVault again
+### If SMugAegis Becomes Unresponsive
+1. **Force quit:** Press Cmd+Option+Esc, select SMugAegis, click "Force Quit"
+2. **Restart app:** Launch SMugAegis again
 3. **Check downloads:** Resume any interrupted downloads
 4. **Contact support** if problem persists
 
 ### If Downloads Are Corrupted
 1. **Delete corrupted files** from destination folder
-2. **Clear completed downloads** in SMugVault
+2. **Clear completed downloads** in SMugAegis
 3. **Re-download affected photos**
 4. **Check disk space** and file permissions
 
 ### If You Lose Access to SmugMug
 1. **Don't panic:** Your downloaded photos are safe
 2. **Check SmugMug account** status in browser
-3. **Re-authenticate** in SMugVault if needed
+3. **Re-authenticate** in SMugAegis if needed
 4. **Contact SmugMug support** for account issues
 
 ---
@@ -284,18 +284,18 @@ SMugVault automatically handles common issues:
 
 ### Getting Help
 - **Email Support:** [WINMUG@icloud.com](mailto:WINMUG@icloud.com)
-- **FAQ:** [SMugVault.app/faq](https://github.com/harikas14/Pages/blob/main/docs/SMugVault-FAQ.md)
-- **GitHub:** [github.com/SMugVault/SMugVault](https://github.com/harikas14/Pages/blob/main/docs/SMugVault-README.md)
+- **FAQ:** [SMugAegis.app/faq](https://github.com/harikas14/Pages/blob/main/docs/SMugAegis-FAQ.md)
+- **GitHub:** [github.com/SMugAegis/SMugAegis](https://github.com/harikas14/Pages/blob/main/docs/SMugAegis-README.md)
 
 
 ### Updates
-SMugVault automatically checks for updates. You can also:
-- **Check manually:** SMugVault → Check for Updates
+SMugAegis automatically checks for updates. You can also:
+- **Check manually:** SMugAegis → Check for Updates
 - **Auto-update:** Enable in Mac App Store preferences
-- **Release notes:** Available at [smugvault.app/releases](https://github.com/harikas14/Pages/blob/main/docs/SMugVault-release-notes.md)
+- **Release notes:** Available at [smugaegis.app/releases](https://github.com/harikas14/Pages/blob/main/docs/SMugAegis-release-notes.md)
 
 ---
 
-**Thank you for using SMugVault! We hope this guide helps you make the most of your SmugMug photo downloading experience on Mac.**
+**Thank you for using SMugAegis! We hope this guide helps you make the most of your SmugMug photo downloading experience on Mac.**
 
 *For additional help or feedback, don't hesitate to reach out to our support team.*
