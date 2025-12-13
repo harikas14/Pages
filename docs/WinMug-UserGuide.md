@@ -1,6 +1,6 @@
 # WinMug User Guide
 
-**Version 1.0** | **Price: $7.99** | **Available on Microsoft Store**
+**Version 1.0.6** | **Price: $7.99** | **Available on Microsoft Store**
 
 ## Getting Started
 
@@ -16,6 +16,11 @@ WinMug is a premium desktop application that helps you download your entire Smug
 ✅ **Resume Capability**: Pause and resume large downloads
 ✅ **File Date Preservation**: Sets file creation dates to original photo dates
 ✅ **Progress Tracking**: Real-time download progress and statistics
+✅ **Metadata Export to CSV**: Export photo metadata to CSV files for each album
+✅ **Metadata Embedding**: Embed captions, keywords, and GPS data into image files
+✅ **Wide Format Support**: Metadata embedding for JPEG, PNG, HEIC, RAW, and more
+✅ **Individual Photo Selection**: Select specific photos from albums to download
+✅ **SmugMug Links in CSV**: Direct links to each photo on SmugMug in the CSV export
 
 ### System Requirements
 
@@ -99,6 +104,22 @@ WinMug may request the following permissions:
 3. **To download everything**: Leave all albums checked (recommended)
 4. **To download specific albums**: Uncheck albums you don't want
 5. You can see the total size and image count for your selection
+6. Use the **Tree View** or **List View** toggle to switch between views
+7. Use the **Search** box to quickly find specific albums
+
+### 4a. Select Individual Photos (Optional)
+
+Want to download only specific photos from an album? WinMug supports individual photo selection:
+
+1. Find an album in the list and click **"View"** to open the album preview
+2. The album's photos will display as thumbnails in a grid
+3. Click on individual photos to select/deselect them (selected photos show a blue checkmark)
+4. Use **"Select All"** or **"Deselect All"** buttons for quick selection
+5. Selected photos are added to your download queue
+6. Click **"Back to Albums"** to return to the album list
+7. Your individual selections are preserved and combined with full album selections
+
+**Tip**: This is perfect for downloading just the best photos from large albums!
 
 ### 5. Start Downloading
 
@@ -147,6 +168,42 @@ Your Target Folder/
 - **EXIF Data**: Maintains original photo metadata and camera information
 - **Creation Dates**: Sets file creation times to match original photo capture dates
 - **Folder Timestamps**: Preserves album creation and modification dates
+
+### Metadata Export Options
+WinMug offers two ways to preserve your SmugMug metadata:
+
+**1. CSV Export** (Recommended)
+- Creates a `{AlbumName}_metadata.csv` file in each album folder
+- Includes: filename, title, caption, keywords, date taken, GPS coordinates, SmugMug link
+- Perfect for importing into other photo management systems
+- Works for all file types including RAW and videos
+
+**2. Embed in Images**
+- Writes metadata directly into image files (EXIF/IPTC/XMP)
+- Supports: JPEG, PNG, TIFF, HEIC/HEIF, WebP, and most RAW formats
+- Embeds: captions, keywords, GPS coordinates
+- Note: RAW files are preserved unmodified for safety
+
+### CSV File Contents
+Each CSV file includes the following columns:
+| Column | Description |
+|--------|-------------|
+| FileName | Local filename |
+| FilePath | Full path to downloaded file |
+| ImageKey | SmugMug unique identifier |
+| Title | Photo title from SmugMug |
+| Caption | Photo caption/description |
+| Keywords | Comma-separated keywords |
+| DateTaken | Original capture date |
+| UploadDate | Date uploaded to SmugMug |
+| Format | File format (JPG, PNG, etc.) |
+| IsVideo | Yes/No |
+| Latitude | GPS latitude (if available) |
+| Longitude | GPS longitude (if available) |
+| Altitude | GPS altitude (if available) |
+| HasGPS | Yes/No |
+| SmugMugLink | Direct link to photo on SmugMug |
+| FileExists | Whether file was already downloaded |
 
 ## Troubleshooting
 
@@ -319,6 +376,28 @@ A: Yes! WinMug includes pause/resume functionality, perfect for managing large d
 **Q: What file formats are supported?**
 A: WinMug downloads all file types supported by SmugMug: JPG, PNG, GIF, TIFF, RAW files (CR2, NEF, etc.), and videos (MP4, MOV, etc.).
 
+**Q: What is the CSV metadata export?**
+A: WinMug can create a CSV file for each album containing all photo metadata (titles, captions, keywords, GPS coordinates, dates, and direct SmugMug links). This is useful for:
+- Importing metadata into other photo management software
+- Creating searchable photo databases
+- Preserving SmugMug organization information
+
+**Q: Does metadata embedding work for all image formats?**
+A: WinMug supports metadata embedding for most formats:
+- **Full support**: JPEG, PNG, TIFF, WebP, GIF
+- **Full support**: HEIC/HEIF (Apple format)
+- **Read-only**: RAW files (CR2, NEF, ARW, etc.) - these are preserved unmodified
+- **Limited**: Videos (some metadata may be embedded)
+
+**Q: Why aren't GPS coordinates showing for some photos?**
+A: GPS coordinates are only included when:
+- The original photo has GPS data from the camera or phone
+- The GPS data was added in SmugMug
+- SmugMug returns Latitude=0, Longitude=0 when no location is set, which WinMug correctly ignores
+
+**Q: Can I download individual photos instead of entire albums?**
+A: Yes! Click "View" on any album to see its photos, then click individual photos to select them. Selected photos are added to your download queue alongside any full albums you've selected.
+
 ### Licensing and Updates
 
 **Q: Is this a one-time purchase?**
@@ -329,3 +408,66 @@ A: Updates are delivered automatically through the Microsoft Store when availabl
 
 **Q: Can I install on multiple computers?**
 A: Yes, you can install WinMug on any Windows computer where you're signed in with the same Microsoft account used for purchase.
+
+---
+
+## Credits & Third-Party Licenses
+
+WinMug is built with the help of several excellent open-source projects. We gratefully acknowledge and thank their creators:
+
+### ExifTool by Phil Harvey
+- **License**: GNU GPL v3 (GNU General Public License)
+- **Website**: [https://exiftool.org/](https://exiftool.org/)
+- **Source Code**: [https://github.com/exiftool/exiftool](https://github.com/exiftool/exiftool)
+- **Usage in WinMug**: Reading and writing metadata in image files (JPEG, PNG, HEIC, RAW, and more)
+
+ExifTool is an industry-standard tool for reading and writing metadata in virtually every image format. WinMug bundles ExifTool and calls it as an external executable to provide comprehensive metadata embedding support.
+
+### SixLabors.ImageSharp
+- **License**: Apache License 2.0
+- **Source Code**: [https://github.com/SixLabors/ImageSharp](https://github.com/SixLabors/ImageSharp)
+- **Usage in WinMug**: Cross-platform image processing library
+
+### CommunityToolkit.Mvvm
+- **License**: MIT License
+- **Source Code**: [https://github.com/CommunityToolkit/dotnet](https://github.com/CommunityToolkit/dotnet)
+- **Usage in WinMug**: Modern MVVM framework for the WPF application
+
+### Microsoft.Extensions.*
+- **License**: MIT License
+- **Usage in WinMug**: Dependency injection, configuration, logging, and hosting infrastructure
+
+### Serilog
+- **License**: Apache License 2.0
+- **Source Code**: [https://github.com/serilog/serilog](https://github.com/serilog/serilog)
+- **Usage in WinMug**: Diagnostic logging for troubleshooting and error reporting
+
+---
+
+## Version History
+
+### Version 1.0.6 (Current)
+- **NEW**: CSV metadata export with SmugMug links for each photo
+- **NEW**: Metadata embedding using ExifTool (supports PNG, HEIC, RAW, and more)
+- **NEW**: Individual photo selection within albums
+- **IMPROVED**: GPS coordinate validation (ignores invalid 0,0,0 coordinates)
+- **IMPROVED**: Performance optimization for albums with 500+ photos
+- **FIXED**: Metadata embedding now works for full gallery downloads (not just individual photos)
+
+### Version 1.0.5
+- Unified download process for photos and albums
+- Enhanced photo selection and download features
+- UI improvements for compact design
+
+### Version 1.0.0
+- Initial release
+- Complete SmugMug library download
+- OAuth 1.0a authentication
+- Folder structure preservation
+- Progress tracking and pause/resume
+
+---
+
+**WinMug** | Copyright © 2025 YVCode Apps | All Rights Reserved
+
+*SmugMug is a trademark of SmugMug, Inc. WinMug is not affiliated with or endorsed by SmugMug, Inc.*
