@@ -1,5 +1,5 @@
 # SMugAegis User Guide 📖
-
+https://yvcodeapps.com/smugaegis-userguide
 **Complete Guide to Using SMugAegis - The Ultimate SmugMug Photo Downloader for Mac**
 
 Welcome to SMugAegis! This comprehensive guide will help you get the most out of your SmugMug photo downloading experience on Mac.
