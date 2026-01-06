@@ -1,6 +1,6 @@
 # WinMug User Guide
-
-**Version 1.0.6** | **Price: $7.99** | **Available on Microsoft Store**
+https://yvcodeapps.com/winmug-userguide
+**Version 1.0.6** | **Price: $9.99** | **Available on Microsoft Store**
 
 ## Getting Started
 
